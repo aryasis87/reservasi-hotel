@@ -1,4 +1,4 @@
-# Senja Bay Resort — Design System (Reservasi Hotel)
+# Tanjung Lengkung — Design System (Reservasi Hotel)
 
 > Concept: **immersive travel-magazine** — booking terasa seperti membuka brosur resor mewah; foto besar, tipografi editorial, lapang & menenangkan. Platform: responsive web. Bahasa: Indonesia.
 

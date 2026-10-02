@@ -1,5 +1,8 @@
+import { rooms } from '@/lib/data';
+
+const URL = 'https://reservasi-hotel-kappa.vercel.app';
+
 export default function sitemap() {
-  return [
-    { url: "https://reservasi-hotel-kappa.vercel.app", lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
-  ];
+  const now = new Date();
+  return ['', '/kamar', ...rooms.map((r) => `/kamar/${r.id}`)].map((p) => ({ url: URL + p, lastModified: now, changeFrequency: 'monthly', priority: p ? 0.7 : 1 }));
 }
